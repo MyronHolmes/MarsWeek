@@ -3,7 +3,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class GuessingGame {
-    public static void main (String[] args){
+    public GuessingGame(){
         Scanner input = new Scanner(System.in);
         Random rand = new Random();
 
@@ -45,7 +45,8 @@ public class GuessingGame {
                 System.out.println("You found my number in " + tries + " tries!");
                 break;
             }
-        }
 
+        }
+            input.close();
     }
 }
