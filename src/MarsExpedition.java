@@ -114,7 +114,5 @@ public class MarsExpedition {
         System.out.print(".");
         Thread.sleep(1000);
         System.out.println("GO!");
-
-        input.close();
     }
 }

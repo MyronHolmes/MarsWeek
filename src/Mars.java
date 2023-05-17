@@ -3,7 +3,7 @@ public class Mars {
         String colonyName = "Marzone";
         int shipPopulation = 300;
         double meals = 4_000.00;
-        boolean landing = landingCheck(1);
+        boolean landing = landingCheck(5);
 
         meals -= (shipPopulation * 0.75);
         meals -= (shipPopulation * 0.75);
@@ -19,8 +19,9 @@ public class Mars {
             System.out.println("ERROR!!! Flight plan already set. Landing on the Plain");
         }
 
-//        new GuessingGame();
+        new GuessingGame();
         new MarsExpedition();
+        new FindingsList();
 
     }
 
